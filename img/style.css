@@ -53,18 +53,20 @@ a:focus {
 }
 
 
+.section-one,
+.section-two,
+.section-three {
+    padding: 100px 0px 100px 0px;
+}
+
 .section-one {
     background-color: #E1F2FB;
-    padding: 100px;
-
 }
 
 .section-two {
     background-color: #F1F9F9;
-    padding: 100px 0px 100px 0px;
 }
 
 .section-three {
     background-color: #F3DFE3;
-    padding: 100px 0px 100px 0px;
 }
