@@ -2,10 +2,11 @@ body {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 21px;
+    
 }
 
 .container {
-    width: 570px;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -20,15 +21,15 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 30px;
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 25px;
   
 }
 
@@ -37,7 +38,7 @@ h3 {
 }
 
 #h1-80px {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
 }
 
@@ -49,4 +50,21 @@ a {
 a:hover,
 a:focus {
     color: darkcyan;
+}
+
+
+.section-one {
+    background-color: #E1F2FB;
+    padding: 100px;
+
+}
+
+.section-two {
+    background-color: #F1F9F9;
+    padding: 100px 0px 100px 0px;
+}
+
+.section-three {
+    background-color: #F3DFE3;
+    padding: 100px 0px 100px 0px;
 }
