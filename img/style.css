@@ -40,3 +40,13 @@ h3 {
     font-size: 80px;
     font-weight: 700;
 }
+
+a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: darkcyan;
+}
