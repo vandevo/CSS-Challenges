@@ -22,24 +22,32 @@ h1, h2, h3 {
 
 h1 {
     font-size: 40px;
+    margin-top: 0;
 }
 
 h2 {
     font-size: 30px;
+    margin-top: 0;
 }
 
 h3 {
     font-size: 25px;
+    margin-top: 0;
   
 }
 
 .small-text {
     font-size: 18px;
+    margin-top: 5px;
 }
 
 #h1-80px {
     font-size: 60px;
     font-weight: 700;
+}
+
+p{
+    margin-bottom: 0;
 }
 
 a {
@@ -69,4 +77,26 @@ a:focus {
 
 .section-three {
     background-color: #F3DFE3;
+}
+
+.button {
+    display: block;
+    color: whitesmoke;
+    background-color: #142D4C;
+    padding: 10px;
+    border-radius: 15px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.button:hover {
+    display: inline-block;
+    color: #142D4C;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
