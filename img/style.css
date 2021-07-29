@@ -18,16 +18,28 @@ img {
 
 h1, h2, h3 {
     font-weight: 300;
+    
 }
 
 h1 {
     font-size: 40px;
     margin-top: 0;
+    border: solid #c4c4c4 1px;
+    border-right: 0px;
+    border-left: 0px;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h2 {
     font-size: 30px;
     margin-top: 0;
+    border: solid #c4c4c4 1px;
+    border-right: 0px;
+    border-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h3 {
@@ -36,14 +48,24 @@ h3 {
   
 }
 
+p #accent-text {
+    font-size: 25px;
+}
+
 .small-text {
     font-size: 18px;
     margin-top: 5px;
 }
 
-#h1-80px {
+/* #h1-80px {
     font-size: 60px;
     font-weight: 700;
+}*/
+
+#accent-text{
+    font-size: 60px;
+    color: lightgreen;
+    font-weight: 900;
 }
 
 p{
