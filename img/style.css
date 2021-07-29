@@ -2,18 +2,18 @@ body {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 21px;
-    
+    margin: 0;
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
 img {
-    border-radius: 30px;
+    border-radius: 40px;
     width: 50%;
-    
+    border: solid whitesmoke 10px;
 }
 
 h1, h2, h3 {
@@ -43,13 +43,13 @@ h3 {
 }
 
 a {
-    color: lightseagreen;
+    color: #385170;
     text-decoration: none;
 }
 
 a:hover,
 a:focus {
-    color: darkcyan;
+    color: #142D4C;
 }
 
 
